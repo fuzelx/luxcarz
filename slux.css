@@ -47,7 +47,7 @@
     flex-direction: column;
 }
 .car-img-pg{
-    margin-right: 50px;
+    
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
 }
@@ -82,6 +82,9 @@
     margin: 8px;
     color: black;
     text-align: center;
+}
+.hide-prc{
+    display: none;
 }
 .specs{
     display: flex;
@@ -362,4 +365,51 @@
         height: 250px;
         width: 350px;
     }
+    .con2{
+        width: 100%;
+        height: 600px;
+        margin-top: 78px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .car-img-pg{
+        display: flex;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        align-items: baseline;
+    }
+    .car-img-pg img{
+        border-radius: 7px;
+        width: 400px;
+        height: 350px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    }
+        .info-car{
+            
+            width: 400px;
+            display: flex;
+            margin-right: 80px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 600px;
+        }
+        .specs{
+            display: flex;
+            
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: row;
+        }
+        .hide-prc{
+          display: flex;
+          font-family: 'Josefin Sans', sans-serif;
+          font-size: 25px;
+          color: black;
+          text-align: center;
+          margin: 7px;
+        }
 }
